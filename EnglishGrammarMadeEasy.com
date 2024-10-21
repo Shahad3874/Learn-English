@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html lang="ar">
+ lang="ar">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -237,227 +236,86 @@
         <table>
             <tr>
                 <th>الحرف أو المجموعة</th>
-                <th>الصوت (بالإنجليزية)</th>
-                <th>النطق بالعربية</th>
-                <th>مثال</th>
+                <th>الصوت</th>
+                <th>أمثلة</th>
             </tr>
             <tr>
-                <td>A</td>
-                <td>/æ/</td>
-                <td>أ</td>
-                <td>cat</td>
+                <td>a</td>
+                <td>/æ/ (كما في "cat")</td>
+                <td>cat, bat, hat</td>
             </tr>
             <tr>
-                <td>E</td>
-                <td>/ɛ/</td>
-                <td>إ</td>
-                <td>bed</td>
+                <td>e</td>
+                <td>/ɛ/ (كما في "bed")</td>
+                <td>bed, red, said</td>
             </tr>
             <tr>
-                <td>I</td>
-                <td>/ɪ/</td>
-                <td>إي</td>
-                <td>sit</td>
+                <td>i</td>
+                <td>/ɪ/ (كما في "sit")</td>
+                <td>sit, hit, bit</td>
             </tr>
             <tr>
-                <td>O</td>
-                <td>/ɒ/</td>
-                <td>أو</td>
-                <td>dog</td>
+                <td>o</td>
+                <td>/ɔ/ (كما في "hot")</td>
+                <td>hot, not, pot</td>
             </tr>
             <tr>
-                <td>U</td>
-                <td>/ʌ/</td>
-                <td>أو</td>
-                <td>cup</td>
-            </tr>
-            <tr>
-                <td>TH</td>
-                <td>/θ/</td>
-                <td>ث</td>
-                <td>think</td>
-            </tr>
-            <tr>
-                <td>SH</td>
-                <td>/ʃ/</td>
-                <td>ش</td>
-                <td>sheep</td>
-            </tr>
-            <tr>
-                <td>CH</td>
-                <td>/tʃ/</td>
-                <td>تش</td>
-                <td>chicken</td>
-            </tr>
-            <tr>
-                <td>NG</td>
-                <td>/ŋ/</td>
-                <td>نغ</td>
-                <td>sing</td>
-            </tr>
-            <tr>
-                <td>QU</td>
-                <td>/kw/</td>
-                <td>كوا</td>
-                <td>queen</td>
+                <td>u</td>
+                <td>/ʌ/ (كما في "cup")</td>
+                <td>cup, bus, must</td>
             </tr>
         </table>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>اختبار قواعد اللغة الإنجليزية</title>
-    <style>
-        body {
-            font-family: 'Cairo', sans-serif;
-            background-color: #fafafa;
-            margin: 0;
-            padding: 0;
-            line-height: 1.6;
-        }
-        header {
-            background-color: #6a9fb5;
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
-        .content {
-            max-width: 800px;
-            margin: 40px auto;
-            padding: 20px;
-            background-color: white;
-            border-radius: 10px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-        }
-        h2 {
-            color: #333;
-            font-size: 1.8em;
-        }
-        .results {
-            margin-top: 20px;
-            font-size: 1.2em;
-            color: green;
-        }
-    </style>
-</head>
-<body>
-    <header>
-        <h1>اختبار قواعد اللغة الإنجليزية</h1>
-    </header>
 
-    <div class="content">
-        <h2>اختر الإجابة الصحيحة</h2>
-        <form id="quiz-form">
-            <ol>
-                <li>
-                    <h3>1. She ____ to the store yesterday.</h3>
-                    <label><input type="radio" name="q1" value="go"> Go</label><br>
-                    <label><input type="radio" name="q1" value="went"> Went</label><br>
-                    <label><input type="radio" name="q1" value="gone"> Gone</label><br>
-                </li>
-                <li>
-                    <h3>2. Which of the following is a correct sentence?</h3>
-                    <label><input type="radio" name="q2" value="He don't like pizza."> He don't like pizza.</label><br>
-                    <label><input type="radio" name="q2" value="He doesn't likes pizza."> He doesn't likes pizza.</label><br>
-                    <label><input type="radio" name="q2" value="He doesn't like pizza."> He doesn't like pizza.</label><br>
-                </li>
-                <li>
-                    <h3>3. Choose the correct form: "If I ____ you, I would apologize."</h3>
-                    <label><input type="radio" name="q3" value="was"> Was</label><br>
-                    <label><input type="radio" name="q3" value="were"> Were</label><br>
-                    <label><input type="radio" name="q3" value="am"> Am</label><br>
-                </li>
-                <li>
-                    <h3>4. What is the plural of "mouse"?</h3>
-                    <label><input type="radio" name="q4" value="mouses"> Mouses</label><br>
-                    <label><input type="radio" name="q4" value="mice"> Mice</label><br>
-                    <label><input type="radio" name="q4" value="micees"> Micees</label><br>
-                </li>
-                <li>
-                    <h3>5. Choose the correct sentence:</h3>
-                    <label><input type="radio" name="q5" value="There is many problems."> There is many problems.</label><br>
-                    <label><input type="radio" name="q5" value="There are many problems."> There are many problems.</label><br>
-                    <label><input type="radio" name="q5" value="There is a lot of problem."> There is a lot of problem.</label><br>
-                </li>
-                <li>
-                    <h3>6. What is the correct tense? "They ____ (eat) dinner when I called."</h3>
-                    <label><input type="radio" name="q6" value="were eating"> Were eating</label><br>
-                    <label><input type="radio" name="q6" value="eating"> Eating</label><br>
-                    <label><input type="radio" name="q6" value="eat"> Eat</label><br>
-                </li>
-                <li>
-                    <h3>7. Choose the correct preposition: "I will meet you ____ 3 PM."</h3>
-                    <label><input type="radio" name="q7" value="on"> On</label><br>
-                    <label><input type="radio" name="q7" value="in"> In</label><br>
-                    <label><input type="radio" name="q7" value="at"> At</label><br>
-                </li>
-                <li>
-                    <h3>8. Which sentence is correct?</h3>
-                    <label><input type="radio" name="q8" value="She enjoys to play tennis."> She enjoys to play tennis.</label><br>
-                    <label><input type="radio" name="q8" value="She enjoys playing tennis."> She enjoys playing tennis.</label><br>
-                    <label><input type="radio" name="q8" value="She enjoy playing tennis."> She enjoy playing tennis.</label><br>
-                </li>
-                <li>
-                    <h3>9. Choose the correct article: "___ apple a day keeps the doctor away."</h3>
-                    <label><input type="radio" name="q9" value="An"> An</label><br>
-                    <label><input type="radio" name="q9" value="A"> A</label><br>
-                    <label><input type="radio" name="q9" value="The"> The</label><br>
-                </li>
-                <li>
-                    <h3>10. What is the past form of "see"?</h3>
-                    <label><input type="radio" name="q10" value="saw"> Saw</label><br>
-                    <label><input type="radio" name="q10" value="seen"> Seen</label><br>
-                    <label><input type="radio" name="q10" value="see"> See</label><br>
-                </li>
-            </ol>
-            <button type="submit">إرسال الإجابات</button>
+        <h2>اختبر معلوماتك!</h2>
+        <form id="quizForm">
+            <p>1. ما هو المضارع البسيط؟</p>
+            <input type="radio" name="q1" value="a"> A) يستخدم للتعبير عن حدث في الماضي.<br>
+            <input type="radio" name="q1" value="b"> B) يستخدم للتعبير عن العادات أو الحقائق العامة.<br>
+            <input type="radio" name="q1" value="c"> C) يستخدم للتعبير عن شيء سيحدث في المستقبل.<br>
+
+            <p>2. ما هي صيغة المضارع المستمر؟</p>
+            <input type="radio" name="q2" value="a"> A) الفاعل + will + الفعل الأساسي.<br>
+            <input type="radio" name="q2" value="b"> B) الفاعل + am/is/are + الفعل مع إضافة "ing".<br>
+            <input type="radio" name="q2" value="c"> C) الفاعل + الفعل الأساسي + "ed".<br>
+
+            <p>3. ما هو الفعل غير المنتظم في الماضي؟</p>
+            <input type="radio" name="q3" value="a"> A) walked<br>
+            <input type="radio" name="q3" value="b"> B) eat<br>
+            <input type="radio" name="q3" value="c"> C) played<br>
+
+            <p>4. أي من الجمل التالية تعبر عن جملة شرطية؟</p>
+            <input type="radio" name="q4" value="a"> A) If it rains, I will stay home.<br>
+            <input type="radio" name="q4" value="b"> B) She is studying now.<br>
+            <input type="radio" name="q4" value="c"> C) They played yesterday.<br>
+
+            <p>5. ما هو الشكل الصحيح للمقارنة؟</p>
+            <input type="radio" name="q5" value="a"> A) She is more smart than her brother.<br>
+            <input type="radio" name="q5" value="b"> B) She is smarter than her brother.<br>
+            <input type="radio" name="q5" value="c"> C) She is smartly than her brother.<br>
+
+            <input type="button" value="تحقق من الإجابات" onclick="checkAnswers()">
         </form>
-
-        <div id="results" class="results"></div>
+        <div class="results" id="results"></div>
     </div>
 
+    <footer>
+        <p>&copy; 2024 تعلم اللغة الإنجليزية</p>
+    </footer>
+
     <script>
-        document.getElementById('quiz-form').addEventListener('submit', function(e) {
-            e.preventDefault();
-
-            const answers = {
-                q1: "went",
-                q2: "He doesn't like pizza.",
-                q3: "were",
-                q4: "mice",
-                q5: "There are many problems.",
-                q6: "were eating",
-                q7: "at",
-                q8: "She enjoys playing tennis.",
-                q9: "An",
-                q10: "saw"
-            };
-
+        function checkAnswers() {
+            const correctAnswers = ['b', 'b', 'b', 'a', 'b'];
             let score = 0;
-            const totalQuestions = Object.keys(answers).length;
-            let resultsHtml = "<h2>نتائج الاختبار:</h2><ul>";
-
-            for (let question in answers) {
-                const userAnswer = document.querySelector(document.querySelector`).value;
-                if (userAnswer === answers[question]) {
+            const form = document.forms['quizForm'];
+            const resultsDiv = document.getElementById('results');
+            for (let i = 0; i < correctAnswers.length; i++) {
+                const selected = form['q' + (i + 1)].value;
+                if (selected === correctAnswers[i]) {
                     score++;
-                    resultsHtml += `<li>${question}: <span style="color: green;">${userAnswer}</span> (صحيح)</li>`;
-                } else {
-                    resultsHtml += `<li>${question}: <span style="color: red;">${userAnswer}</span> (خطأ، الإجابة الصحيحة هي: ${answers[question]})</li>`;
                 }
             }
-
-            resultsHtml += `</ul><p>مجموع النقاط: ${score} من ${totalQuestions}</p>`;
-
-            if (score === totalQuestions) {
-                resultsHtml += "<p>أحسنت! أنت في مستوى ممتاز!</p>";
-            } else if (score >= totalQuestions / 2) {
-                resultsHtml += "<p>عمل جيد! يمكنك التحسن أكثر!</p>";
-            } else {
-                resultsHtml += "<p>لا تقلق، حاول مرة أخرى وستتحسن!</p>";
-            }
-
-            document.getElementById('results').innerHTML = resultsHtml;
-        });
+            resultsDiv.innerHTML = 'لقد حصلت على ' + score + ' من ' + correctAnswers.length + ' إجابات صحيحة!';
+        }
     </script>
 </body>
 </html>
