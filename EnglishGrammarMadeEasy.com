@@ -302,8 +302,6 @@
                 <td>queen</td>
             </tr>
         </table>
-<!DOCTYPE html>
-<html lang="ar">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -439,7 +437,7 @@
             let resultsHtml = "<h2>نتائج الاختبار:</h2><ul>";
 
             for (let question in answers) {
-                const userAnswer = document.querySelector(`input[name="${question}"]:checked`).value;
+                const userAnswer = document.querySelector(document.querySelector`).value;
                 if (userAnswer === answers[question]) {
                     score++;
                     resultsHtml += `<li>${question}: <span style="color: green;">${userAnswer}</span> (صحيح)</li>`;
